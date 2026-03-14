@@ -1,10 +1,7 @@
 # AWS Boto3 Automation Portfolio
 
-A collection of **Python automation scripts built using the AWS Boto3 SDK** demonstrating practical skills in **Cloud Engineering, Infrastructure Automation, and Infrastructure as Code (IaC)**.
+This repository contains a comprehensive collection of Python automation scripts using the AWS Boto3 SDK.its automated resource management across major AWS services.
 
-This portfolio showcases automated management of core AWS services including compute, storage, identity, serverless infrastructure, and monitoring.
-
----
 
 ## Project Structure
 
