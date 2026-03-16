@@ -10,7 +10,7 @@ def update_item():
             Key={'UserId': 'user_123'},
             UpdateExpression="SET #r = :new_role",
             ExpressionAttributeNames={'#r': 'Role'},
-            ExpressionAttributeValues={':new_role': 'Senior Cloud Engineer'}
+            ExpressionAttributeValues={':new_role': 'cloud E'}
         )
         print(" User Role has been updated.")
     except Exception as e:
