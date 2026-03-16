@@ -15,7 +15,7 @@ def create_public_endpoint():
         lambda_info = lam.get_function(FunctionName=LAMBDA_NAME)
         lambda_arn = lambda_info['Configuration']['FunctionArn']
     except Exception as e:
-        print(f"Error finding Lambda. Did you run script 02 first? {e}")
+        print(f"Error finding Lambda. Did you run script first? {e}")
         return
 
     print("Creating API Gateway...")
