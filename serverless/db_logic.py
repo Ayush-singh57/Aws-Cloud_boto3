@@ -18,7 +18,7 @@ def save_user_visit(name):
                 'Timestamp': {'S': '2023-10-27'} # Example date
             }
         )
-        print(f"✅ Saved record for {name} to {table}")
+        print(f" Saved record for {name} to {table}")
         return True
     except Exception as e:
         print(f"Error saving to DB: {e}")
